@@ -3,7 +3,7 @@ from selenium import webdriver
 from webtest.user_login import UserLogin
 
 
-def test_super_admin_login():
+def test_admin2_login():
     user_name = "admin2"
     user_password = "admin2"
     login = UserLogin()

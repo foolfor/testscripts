@@ -1,2 +1,2 @@
 # testscripts
-Personal code library containing test scripts.
+Personal code library containing test scripts for Selenium

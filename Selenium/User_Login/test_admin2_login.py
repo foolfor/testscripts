@@ -9,6 +9,9 @@ def test_admin2_login():
     login = UserLogin()
     login.driver = webdriver.Chrome()
 
+    # do login test and get info from new page
     info_str = login.login_return_value(user_name, user_password)
+
+    # close web driver
     login.driver.close()
     assert info_str.index("KEYWORD")
